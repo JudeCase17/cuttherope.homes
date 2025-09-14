@@ -11,11 +11,15 @@ body {
 
 @font-face {
     font-family: 'GoodDog_New';
-    src: url('../../fonts/gooddog_new/gooddp__-webfont.woff2') format('woff2'), url('../../gooddog_new/fonts/gooddp__-webfont.woff') format('woff'), url('../../gooddog_new/fonts/gooddp__-webfont.ttf') format('truetype');
+    src: url('../../font/gooddog_new/gooddp__-webfont.woff2') format('woff2'), url('../../font/gooddog_new/gooddp__-webfont.woff') format('woff'), url('../../font/gooddog_new/gooddp__-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 .logo {
     height: 50vmin;
+}
+
+p {
+    font-size: 20px;
 }
