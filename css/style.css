@@ -4,3 +4,7 @@ body {
     background-size: 100vmax, 100vmax;
     background-repeat: no-repeat, repeat;
 }
+
+.logo {
+    height: 50vmin
+}
