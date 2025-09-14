@@ -32,6 +32,8 @@ p {
 .topnav {
     overflow: hidden;
     background-color: saddlebrown;
+    margin: 0px;
+    padding: 0px;
 }
 
     .topnav a {
