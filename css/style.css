@@ -3,4 +3,23 @@ body {
     background-color: #5d9134;
     background-size: 100vmax, 100vmax;
     background-repeat: no-repeat, repeat;
+    color: white;
+    font-family: GoodDog_New;
+    
+    text-shadow: -1px 1px 2px #000, 1px 2px 6px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+@font-face {
+    font-family: 'GoodDog_New';
+    src: url('../../font/gooddog_new/gooddp__-webfont.woff2') format('woff2'), url('../../font/gooddog_new/gooddp__-webfont.woff') format('woff'), url('../../font/gooddog_new/gooddp__-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    height: 50vmin;
+}
+
+p {
+    font-size: 50px;
 }
