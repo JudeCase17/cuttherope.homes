@@ -32,6 +32,12 @@ h2 {
     font-weight: normal;
 }
 
+h1 {
+    font-size: 100px;
+    margin: 10px;
+    font-weight: normal;
+}
+
 p {
     font-size: 30px;
     margin: 10px;
