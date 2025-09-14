@@ -24,17 +24,20 @@ p {
     font-size: 50px;
 }
 
+.navlogo {
+    height: auto;
+}
 
 /* topnav bullshit below */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: saddlebrown;
 }
 
     .topnav a {
         float: left;
         display: block;
-        color: saddlebrown;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
