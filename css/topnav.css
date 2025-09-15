@@ -3,6 +3,9 @@
     overflow: hidden;
     background-color: saddlebrown;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
     .topnav a {
