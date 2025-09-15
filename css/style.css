@@ -84,7 +84,7 @@ a {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .gameAbout {
         margin: auto;
         width: 100%;
