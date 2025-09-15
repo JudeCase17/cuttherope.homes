@@ -3,7 +3,7 @@
     overflow: hidden;
     background-color: saddlebrown;
     margin-bottom: 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -61,5 +61,6 @@
             float: none;
             display: block;
             text-align: left;
+            width: 100%;
         }
 }
