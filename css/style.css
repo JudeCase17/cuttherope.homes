@@ -19,6 +19,7 @@ body {
     margin: 50px;
     max-width:100vw;
     display: inline-block;
+    vertical-align: top;
 }
 
 .gameImage {
