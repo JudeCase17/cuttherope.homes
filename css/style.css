@@ -80,6 +80,6 @@ a {
     width: 300px;
     height: auto;
     max-width: 100vw;
-    display: inline;
+    float: left;
     margin: 20px;
 }
