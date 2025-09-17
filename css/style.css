@@ -22,6 +22,7 @@ body {
 .platformdownload {
     text-align: center;
     display: inline-block;
+    margin: 10px;
 }
 
 .platformicon {
