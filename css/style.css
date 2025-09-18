@@ -74,6 +74,10 @@ a {
     color: aqua;
 }
 
+    a.recommended {
+        color: yellow;
+    }
+
 .navlogo {
     height: 30px;
 }
