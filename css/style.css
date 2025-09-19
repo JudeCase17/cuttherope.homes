@@ -28,6 +28,17 @@ body {
     vertical-align: top;
 }
 
+.gallerydiv {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.galleryicon {
+    width: 250px;
+    height: auto;
+}
+
 .videodiv {
     text-align: center;
     display: inline-block;
