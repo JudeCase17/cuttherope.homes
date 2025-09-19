@@ -31,6 +31,7 @@ body {
     margin: 10px;
     width: 350px;
     max-width: 350px;
+    vertical-align: top;
 }
 
 .platformicon {
