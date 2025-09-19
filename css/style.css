@@ -23,6 +23,9 @@ body {
     text-align: center;
     display: inline-block;
     margin: 10px;
+    width: 350px;
+    max-width: 350px;
+    vertical-align: top;
 }
 
 .videodiv {
