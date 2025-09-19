@@ -30,6 +30,7 @@ body {
     display: inline-block;
     margin: 10px;
     width: 350px;
+    max-width: 350px;
 }
 
 .platformicon {
