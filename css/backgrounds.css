@@ -8,6 +8,6 @@ body.default {
 body.experiments {
     background-image: url("https://ctrhome.github.io/img/expbg.webp");
     background-color: #1177EA;
-    background-size: 100vw, 100vw;
-    background-repeat: no-repeat, repeat;
+    background-size: 100vw;
+    background-repeat: repeat;
 }
