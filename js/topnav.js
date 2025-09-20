@@ -24,7 +24,7 @@
     nav.appendChild(createLink("https://ctrhome.github.io/games", "Games"));
     nav.appendChild(createLink("https://ctrhome.github.io/about", "About"));
     nav.appendChild(createLink("https://ctrhome.github.io/fan-projects", "Fan Projects"));
-    nav.appendChild(createLink("https://ctrhome.github.io/games/cuttherope.ie", "Play Online"));
+    nav.appendChild(createLink("https://ctrhome.github.io/play", "Play Online"));
     nav.appendChild(createLink("https://ctrhome.github.io/modding", "Modding"));
     nav.appendChild(createLink("https://ctrhome.github.io/comics", "Comics"));
 
