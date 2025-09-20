@@ -4,3 +4,10 @@ body.default {
     background-size: 100vmax, 100vmax;
     background-repeat: no-repeat, repeat;
 }
+
+body.experiments {
+    background-image: url("https://ctrhome.github.io/img/expbg1.webp"),url("https://ctrhome.github.io/img/expbg2.webp");
+    background-color: #1177EA;
+    background-size: 100vmax, 100vmax;
+    background-repeat: no-repeat, repeat;
+}
