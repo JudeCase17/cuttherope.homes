@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function () {
   // Create wrapper div
   const nav = document.createElement("div");
@@ -53,4 +52,3 @@
     }
   }
 });
-</script>
