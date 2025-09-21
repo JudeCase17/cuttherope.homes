@@ -15973,17 +15973,7 @@ if (!self.__WB_pmw) {
                     d.Za();
                     h.Za();
                     M.Za();
-                    // Inside Za() or wherever levels are drawn:
-    for (var k = 0, l = f.length; k < l; k++) {
-    var levelCountForBox = f[k].rh.length;
-
-    // Force 3rd box (index 2) to always show 7 buttons
-    if (k === 2) {
-        levelCountForBox = 7;
-    }
-
-    a.Lw(k, levelCountForBox, e[k]);
-}
+                    for (var e = b.jt, f = b.Ci, k = 0, l = f.length; k < l; k++) a.Lw(k, f[k].rh.length, e[k]);
                     $(window).blur(L.Ex);
                     $(window).focus(L.Xx);
                     $(window).resize(function() {
