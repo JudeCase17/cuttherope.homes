@@ -2464,7 +2464,7 @@ if (!self.__WB_pmw) {
                 jt: [0, 20, 40, null],
 				
 				// the index of the quad for the support OmNom sits on
-                dz: [0, 1, 7, null],
+                dz: [0, 1, 5, null],
 				
 				// determines whether the earth animation is shown
                 Ny: [false, false, false, false],
@@ -13554,7 +13554,7 @@ if (!self.__WB_pmw) {
                             window.external.msIsSiteMode() && (f = i)
                         } catch (l) {}
                         if (b || f || c.forcePinnedBox) {
-                            this.opacity = this.bf = PinnedStates.VISIBLE;
+                            this.opacity = this.bf = PinnedStates.PROMPT_IE;
                             this.ef = n;
                             if (!b) {
                                 localStorage.setItem("msIsSiteModeActivated", "true");
@@ -13563,7 +13563,7 @@ if (!self.__WB_pmw) {
                         }
 						else {
                             this.bf = PinnedStates.VISIBLE;
-                            this.opacity = 0.35;
+                            this.opacity = 0;
                             this.ef = "pinPrompt";
                             var x = this;
                             d.subscribe(d.ia.lc, function() {
@@ -13581,7 +13581,7 @@ if (!self.__WB_pmw) {
                     }
 					else if (getIECapableOS) {
                         this.bf = PinnedStates.VISIBLE;
-                        this.opacity = 0.35;
+                        this.opacity = 0;
                         this.ef = "iePrompt";
                         var $getIeButton = $("#installieBtn"),
                             ieDownload = getIE9DownloadUrl();
