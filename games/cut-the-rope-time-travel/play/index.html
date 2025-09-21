@@ -1,60 +1,50 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-    <title>Cut the Rope</title>
-    <link rel="canonical" href="https://windyboy.freevnn.com" />
-    <meta name="description" content="Play Cut the Rope! A mysterious package has arrived, and the little monster inside has only one request… CANDY!">
+    <title>Cut the Rope: Time Travel</title>
+    <link rel="canonical" href="http://windyboy.freevnn.com/games/ctr-tt" />
+    <meta name="description" content="Play Cut the Rope: Time Travel! Join Om Nom as he travels back in time to feed his ancestors with candy. Cut the Rope: Time Travel is a completely new adventure filled with time-traveling, candy-crunching, physics-based action!">
 
-    <meta name="msapplication-tooltip" content="Play Cut the Rope! A mysterious package has arrived, and the little monster inside has only one request… CANDY!" />
-    <meta name="msapplication-navbutton-color" content="#659729" />
-    <meta name="msApplication-ID" content="App"/>
-    <meta name="msApplication-PackageFamilyName" content="ZeptoLabUKLimited.CutTheRope_sq9zxnwrk84pj"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <meta property="og:title" content="Cut the Rope" />
+    <meta property="og:title" content="Cut the Rope: Time Travel" />
     <meta property="og:type" content="game" />
-    <meta property="og:url" content="http://windyboy.freevnn.com/games/ctr" />
-    <meta property="og:image" content="http://windyboy.freevnn.com/games/ctr/fb.png" />
-    <meta property="og:site_name" content="Cut the Rope" />
-
-    <meta name="viewport" content="width=1024, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <meta property="og:description" content="Join Om Nom as he travels back in time to feed his ancestors with candy. Cut the Rope: Time Travel is a completely new adventure filled with time-traveling, candy-crunching, physics-based action!">
+    <meta property="og:url" content="http://windyboy.freevnn.com/games/ctr-tt" />
+    <meta property="og:image" content="http://windyboy.freevnn.com/games/ctr-tt/fb.png" />
+    <meta property="og:site_name" content="Cut the Rope: Time Travel" />
 	<script type="text/javascript" src="/js/detectmobilebrowser.js" ></script>
-    <link href="css/ctr_original.css?438" rel="stylesheet" type="text/css">
-    <script src="scripts/sm2.js?438" type="text/javascript"></script>
-    <script src="scripts/libraries.js?438" type="text/javascript"></script>
-    <script src="scripts/ctr-time.js?438" type="text/javascript"></script>
+    <link href="css/ctr.css?238" rel="stylesheet" type="text/css">
+    <script src="scripts/sm2.js?238" type="text/javascript"></script>
+    <script src="scripts/libraries.js?238" type="text/javascript"></script>
+    <script src="scripts/ctr-time.js?238" type="text/javascript"></script>
     <noscript>
-        <link href="css/nojavascript.css?438" rel="stylesheet" type="text/css">
+        <link href="css/nojavascript.css?238" rel="stylesheet" type="text/css">
     </noscript>
 </head>
 <body class="ctrCursor">
   <div id="lang">
-    <div id="fb-root"></div>
 
     <style  type="text/css">
         .hideBeforeLoad, #loaderWindow, #popupWindow { display: none; }  
     </style>
 
-    <div id="gameContainer" >
-        <div id="game-border">
-            <div id="loader-logo"></div>
-        </div>
+    <div id="gameContainer">
         <div id="gameArea" class="hideBeforeLoad">
             <canvas id="c"></canvas>
             <div id="loadingPanel" class="panel"></div>
-
             <div id="startBackground" class="panel"></div>
             <div id="menuBackground" class="panel"></div>
             <div id="levelBackground" class="panel">
                 <canvas id="levelCanvas"></canvas>
                 <div id="levelTape" class="levelTape"></div>
+                <div id="doorGradient"></div>
             </div>
             <div id="shadowPanel" class="panel">
-                <canvas id="shadowCanvas"></canvas>
+                <canvas id="shadowCanvas" width="1024" height="576"></canvas>
             </div>
             <div id="menuPanel" class="panel seethrough">
                 <div class="panelContent">
@@ -65,17 +55,17 @@
                     </div>
                 </div>
                 <div id="miniOptionsMenu">
-					<!--<div id="optionHd"></div>
-					<div id="optionSd"></div>-->
-                    <div id="optionSound" class="ctrPointer" ></div>
+                    <div id="optionSd"></div>
+                    <div id="optionHd"></div>
+                    <div id="optionSound" class="ctrPointer"></div>
                     <div id="optionMsg"></div>
                 </div>
             </div>
 
             <div id="boxPanel" class="panel seethrough">
                 
-                <canvas id="boxCanvas"></canvas>
-
+                <canvas id="boxCanvas" width="1024" height="576"></canvas>
+                <div id="boxEnterCodeButton" class="fBtn ctrPointer"></div>
                 <div id="boxScore" class="hideFromMouse"><img src="" /></div>
 
                 <div id="boxNavBack">
@@ -88,6 +78,12 @@
                 </div>
                 <div id="boxBack" class="bBtn">
                 </div>
+            </div>
+            <div id="codePanel" class="panel seethrough">
+                <input id="codeText" type="text" />
+                <div id="codeOkButton" class="ctrPointer"></div>
+                <div id="codeMessage"></div>
+                <div id="codeBack" class="bBtn"></div>
             </div>
             <div id="levelPanel" class="panel">
                 <div id="levelScore">
@@ -121,10 +117,11 @@
             <div id="gameCompletePanel" class="panel">
                 <div id="congrats"></div>
                 <div id="finalScore"><img src="" /></div>
+                <div id="finalShareBtn" class="mBtn"><img src="" /><div id="ffb"></div></div>
                 <a href="http://windyboy.freevnn.com/games" id="finalFunBtn" class="lBtn" target="_blank"><img src="" /><div id="funOmNom"></div></a>
                 <div id="gameCompleteBack" class="bBtn"></div>
             </div>
-            
+
             <div id="optionsPanel" class="panel">
                 <div class="fBtnVBox">
                     <div id="optionsTitle"><img src="" /></div>
@@ -138,7 +135,6 @@
                 </div>
                 <div id="optionsBack" class="bBtn"></div>
             </div>
-
             <div id="d" class="panel ctrPointer">
                 <img id="dmsg" />
                 <div id="dframe">
@@ -167,9 +163,9 @@
             </div>
             <div id="video"></div>
             <div id="fadeToBlack" class="panel"></div>
-        </div>  
+        </div>
         <canvas id="e"></canvas>
-        
+
         <div id="loaderWindow">
             <div id="loaderBubbles">
                 <img id="loaderLogo" src="images/page/loader-logo.png" />
@@ -179,37 +175,52 @@
             </div>
         </div>
 
-        <div id="popupWindow">
-            <div class="popupOuterFrame">
-                <div class="popupInnerFrame" id="slowComputer">
-                    <div class="fBtn" id="slowComputerBtn"><img src="" /></div>
-                </div>
-                <div class="popupInnerFrame" id="resetGame">
-                    <div id="resetText"></div>
-                    <div class="mBtn" id="resetYesBtn"><img src="" /></div>
-                    <div class="mBtn" id="resetNoBtn"><img src="" /></div>
-                    <div id="resetHoldYes"></div>
-                </div>
-                <div class="popupInnerFrame" id="missingStars">
-                    <div id="missingLine1"></div>
-                    <div id="missingCount"><div id="missingStar"></div></div>
-                    <div id="missingLine2"></div>
-                    <div id="missingLine3"></div>
-                    <div class="mBtn" id="missingOkBtn"></div>
-                </div>
-            </div>
-        </div>
+        <div id="lsWarning" style="display:none;">
+            <p>
+                Your browser settings won't allow us to save your game progress after you
+                close this tab. This might happen if you've disabled cookies or site data
+                for some domains.
+            </p>
+            <p>Don't worry, you can still play!</p>
+            <p>
+                Consider modifying your settings to allow <br/>
+                our domain ( <span id="lsDomain"></span> ) <br/>
+                to store site data so we can save your progress.
+            </p>
 
-        <div id="upgrade">
-            <div id="upgrade-header"></div>
-            <a id="upgrade-button" href="http://windows.microsoft.com/ie"></a>
+            <a id="lsChromeInfoLink" target="_blank" href="http://support.google.com/chrome/bin/answer.py?hl=en&answer=95647">
+                Details on how to manage your <br/> cookies and site data in Google Chrome
+            </a>
+            <div class="mBtn" id="lsOkButton"><span>OK</span></div>
         </div>
-
     </div>
 
+    <div id="popupWindow">
+        <div class="popupOuterFrame">
+            <div class="popupInnerFrame" id="slowComputer">
+                <div class="fBtn" id="slowComputerBtn"><img src="" /></div>
+            </div>
+            <div class="popupInnerFrame" id="resetGame">
+                <div id="resetText"></div>
+                <div class="mBtn" id="resetYesBtn"><img src="" /></div>
+                <div class="mBtn" id="resetNoBtn"><img src="" /></div>
+                <div id="resetHoldYes"></div>
+            </div>
+            <div class="popupInnerFrame" id="missingStars">
+                <div id="missingLine1"></div>
+                <div id="missingCount"><div id="missingStar"></div></div>
+                <div id="missingLine2"></div>
+                <div id="missingLine3"></div>
+                <div class="mBtn" id="missingOkBtn"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="upgrade">
+        <div id="upgrade-header"></div>
+        <a id="upgrade-button" href="http://windows.microsoft.com/ie"></a>
+    </div>
   </div>
-
-
 </body>
 </html>
 
