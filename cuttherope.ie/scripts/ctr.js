@@ -15252,7 +15252,7 @@ if (!self.__WB_pmw) {
                         }
                         $("#" + g).click(function() {
                             s.ty(!L.rt);
-                            window.location.href = "/"
+                            window.location.href = "/cuttherope.ie/"
                         });
                         z.subscribe(z.ia.lc, function() {
                             P("#playBtn img", B.mu);
