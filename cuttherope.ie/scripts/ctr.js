@@ -12749,28 +12749,28 @@ if (!self.__WB_pmw) {
                     Lu: p,
                     NA: i,
 					
-                    imageBaseUrl: "/images/",
-                    resolutionBaseUrl: "/images/" + c.He + "/",
-                    uiImageBaseUrl: "/images/" + c.He + "/ui/",
+                    imageBaseUrl: "images/",
+                    resolutionBaseUrl: "images/" + c.He + "/",
+                    uiImageBaseUrl: "images/" + c.He + "/ui/",
 					
-                    audioBaseUrl: "/audio/",
+                    audioBaseUrl: "audio/",
                     getAudioExtension: function() {
                         return !soundManager.useHTML5Audio ? ".m4a" : Modernizr.audio.m4a ?
                             ".m4a" : Modernizr.audio.ogg ? ".ogg" : n
                     },
 					
-                    videoBaseUrl: "/video/",
+                    videoBaseUrl: "video/",
                     getVideoExtension: function() {
                         return Modernizr.video.h264 ? ".mp4" : Modernizr.audio.ogg ? ".ogv" : n
                     },
 					
                     getDrawingBaseUrl: function() {
                         var a = window.location;
-                        return a.protocol + "//" + a.host + "/images/" + c.He + "/ui/"
+                        return a.protocol + "//" + a.host + "images/" + c.He + "/ui/"
                     },
                     getScoreImageBaseUrl: function() {
                         var a = window.location;
-                        return a.protocol + "//" + a.host + "/images/scores/"
+                        return a.protocol + "//" + a.host + "images/scores/"
                     },
 					updateSoundOption: function ($el, isSoundOn) {
 						$el.toggleClass('disabled', !isSoundOn);
