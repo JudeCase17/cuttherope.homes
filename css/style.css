@@ -106,7 +106,7 @@ a {
     height: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 923px) {
     .gameAbout {
         margin: auto;
         width: 80%;
@@ -129,7 +129,7 @@ a {
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 924px) {
     .gameAbout {
         margin: auto;
         width: 100%;
