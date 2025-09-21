@@ -2431,8 +2431,8 @@ if (!self.__WB_pmw) {
     Ma.Du = "bBtn_bgd.png,box_lock.png,box_nav_menu.png,box_omnom.png,boxcutter.png,boxmore_bgd.png,boxshadow.png,buttonsprite.png,ctrlogo.png,drawing-bg.png,fb.png,fBtn_bgd.png,flags.png,fun-omnom.png,gamecomplete.jpg,gamecomplete_border.png,lBtn_bgd.png,level_bgd.png,level_bgd_small.png,leveltape.png,leveltape_left.png,leveltape_right.png,mBtn_bgd.png,menu_result_en.png,menu_result_fr.png,menu_result_gr.png,menu_result_ru.png,menubg.jpg,options_stars_bgd.png,options_stars_bgd_small.png,perfect_mark.png,ph_logo.png,result_line.png,sBtn_bgd.png,shadow.png,star_result.png,star_result_small.png,startbg.jpg,taperoll.png".split(",");
     var Na = function(b, c, e, a) {
             b = {
-                siteUrl: "http://cuttherope.ie/",
-                behindTheScenesUrl: "http://cuttherope.ie/dev",
+                siteUrl: "http://ctrhome.github.io/cuttherope.ie",
+                behindTheScenesUrl: "http://ctrhome.github.io/cuttherope.ie/dev",
 				
 				// no hidden drawings yet
                 disableHiddenDrawings: true,
@@ -2444,7 +2444,7 @@ if (!self.__WB_pmw) {
                 boxText: [
 					{ t: "Cardboard Box", u: "Carton", s: "Pappkiste", v: "\u041a\u0430\u0440\u0442\u043e\u043d\u043d\u0430\u044f"},
 					{ t: "Fabric Box", u: "Tissu", s: "Stoffkiste", v: "\u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f"},
-					{ t: "Toy Box", u: "Jouets", s: "Spielzeugkiste", v: "\u0418\u0433\u0440\u0443\u0448\u0435\u0447\u043d\u0430\u044f" },
+					{ t: "Pinned Box", u: "Jouets", s: "Spielzeugkiste", v: "\u0418\u0433\u0440\u0443\u0448\u0435\u0447\u043d\u0430\u044f" },
 					{ t: "New levels\ncoming soon!", u: "De nouveaux niveaux bient\u00f4t disponibles!", s: "Neue Level\nkommen bald!", v: "\u041d\u043e\u0432\u044b\u0435 \u0443\u0440\u043e\u0432\u043d\u0438\n\u043d\u0430 \u043f\u043e\u0434\u0445\u043e\u0434\u0435!"}
 				],
 				
