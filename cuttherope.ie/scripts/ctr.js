@@ -2458,7 +2458,7 @@ if (!self.__WB_pmw) {
                 Wl: ["levelbg1.jpg", "levelbg2.jpg", "levelbg3.jpg"],
 				
 				// the type of box to create
-                gv: [a.wg, a.wg, a.Fo, a.uf],
+                gv: [a.wg, a.wg, a.wg, a.uf],
 				
 				// how many stars are required to unlock each box
                 jt: [0, 20, 40, null],
