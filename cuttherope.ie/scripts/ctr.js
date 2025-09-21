@@ -13502,7 +13502,7 @@ if (!self.__WB_pmw) {
             return b.extend({
                 init: function(a, b, c, d) {
                     this.h(a, b, c, d);
-                    this.bf = PinnedStates.UNDEFINED;
+                    this.bf = PinnedStates.VISIBLE;
                     this.ef = n
                 },
 				
@@ -13512,7 +13512,7 @@ if (!self.__WB_pmw) {
 					// the user to install IE. On IE, they need to pin the game first. However
 					// there is no IE on mac so the box is completely disabled.
 
-                    return this.bf !== PinnedStates.HIDDEN
+                    return this.bf !== PinnedStates.VISIBLE
                 },
 				
                 initPinnedState: function() {
@@ -13562,7 +13562,7 @@ if (!self.__WB_pmw) {
                             }
                         }
 						else {
-                            this.bf = PinnedStates.PROMPT_PIN;
+                            this.bf = PinnedStates.VISIBLE;
                             this.opacity = 0.35;
                             this.ef = "pinPrompt";
                             var x = this;
@@ -13580,7 +13580,7 @@ if (!self.__WB_pmw) {
                         }
                     }
 					else if (getIECapableOS) {
-                        this.bf = PinnedStates.PROMPT_IE;
+                        this.bf = PinnedStates.VISIBLE;
                         this.opacity = 0.35;
                         this.ef = "iePrompt";
                         var $getIeButton = $("#installieBtn"),
@@ -13600,7 +13600,7 @@ if (!self.__WB_pmw) {
                         } else $getIeButton.hide()
                     }
 					else {
-                        this.bf = PinnedStates.HIDDEN;
+                        this.bf = PinnedStates.VISIBLE;
                         this.opacity = 0.35;
                         this.ef = n
                     }
