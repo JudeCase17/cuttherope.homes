@@ -11,3 +11,10 @@ body.experiments {
     background-size: 100vw;
     background-repeat: repeat;
 }
+
+body.holidaygift {
+    background-image: url("https://ctrhome.github.io/img/holidaybg.webp");
+    background-color: #4BB4EE;
+    background-size: 100vw;
+    background-repeat: repeat;
+}
