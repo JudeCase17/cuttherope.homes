@@ -5364,30 +5364,20 @@ if (!self.__WB_pmw) {
             b.Tr = b.Uj ? "MSPointerOut" : "mouseout";
             return b
         }(),
-        Wa = (function () {
-                var fps = 60;
-                var frameDuration = 1000 / fps;
-                var lastTime = 0;
-
-                var nativeRAF = window.requestAnimationFrame ||
-                    window.webkitRequestAnimationFrame ||
-                    window.mozRequestAnimationFrame ||
-                    window.oRequestAnimationFrame ||
-                    window.msRequestAnimationFrame;
-
-                window.requestAnimationFrame = function (callback) {
-                    return nativeRAF(function (timestamp) {
-                        if (timestamp - lastTime >= frameDuration) {
-                            lastTime = timestamp;
-                            callback(timestamp);
-                        } else {
-                            // skip this frame, request another
-                            window.requestAnimationFrame(callback);
-                        }
-                    });
-                };
-            })();
-
+        Wa = function() {
+            for (var b = ["ms", "moz", "webkit", "o"], c = 0; c < b.length && !window.requestAnimationFrame; c++) window.requestAnimationFrame = window[b[c] + "RequestAnimationFrame"];
+            if (!window.requestAnimationFrame) {
+                var e = 1E3 / 60,
+                    a = 0;
+                window.requestAnimationFrame = function(d) {
+                    var c = +new Date,
+                        b = Math.max(0, e - (c - a));
+                    window.setTimeout(function() {
+                        d(+new Date)
+                    }, b);
+                    a = c + b
+                }
+            }
             return window.requestAnimationFrame
         }(),
         Xa = new function() {
