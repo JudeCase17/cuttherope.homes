@@ -153,4 +153,6 @@ a {
 
 .gameInfo {
     display: inline-block;
+    float: left;
+    text-align: left;
 }
