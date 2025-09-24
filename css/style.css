@@ -28,6 +28,14 @@ body {
     vertical-align: top;
 }
 
+.fandiv {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    max-width: 600px;
+    vertical-align: top;
+}
+
 .gallerydiv {
     text-align: center;
     display: inline-block;
