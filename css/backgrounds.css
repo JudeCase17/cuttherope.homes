@@ -1,19 +1,19 @@
 body.default {
-    background-image: url("https://ctrhome.github.io/img/bgr.avif"),url("https://ctrhome.github.io/img/bgr2.avif");
+    background-image: url("/img/bgr.avif"),url("/img/bgr2.avif");
     background-color: #5D67A3;
     background-size: 100vmax, 100vmax;
     background-repeat: no-repeat, repeat;
 }
 
 body.experiments {
-    background-image: url("https://ctrhome.github.io/img/expbg.webp");
+    background-image: url("/img/expbg.webp");
     background-color: #1177EA;
     background-size: 100vw;
     background-repeat: repeat;
 }
 
 .holidaygiftbg {
-    background-image: url("https://ctrhome.github.io/img/holidaybg.webp");
+    background-image: url("/img/holidaybg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body.timetravel {
 }
 
 .ttbg {
-    background-image: url("https://ctrhome.github.io/img/ttbg.jpeg");
+    background-image: url("/img/ttbg.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body.timetravel {
 }
 
 .ctr2bg {
-    background-image: url("https://ctrhome.github.io/img/ctr2bg.jpeg");
+    background-image: url("/img/ctr2bg.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body.timetravel {
 }
 
 .magicbg {
-    background-image: url("https://ctrhome.github.io/img/magicbg.webp");
+    background-image: url("/img/magicbg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
