@@ -79,7 +79,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(images/page/tilebg.jpg);
+  background-image: url(../images/page/tilebg.jpg);
   background-repeat: repeat;
   font-family: "gooddognew";
   font-size: 15px;
@@ -102,10 +102,10 @@ body {
   display: none;
 }
 #bg.bg2 {
-  background-image: url(images/page/bg2.jpg);
+  background-image: url(../images/page/bg2.jpg);
 }
 #bg.bg3 {
-  background-image: url(images/page/bg3.jpg);
+  background-image: url(../images/page/bg3.jpg);
 }
 .ctrCursor {
   cursor: url(cursors/cursor.cur),
@@ -130,12 +130,12 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(images/page/vignette-bottom.png);
+  background-image: url(../images/page/vignette-bottom.png);
   background-repeat: repeat-x;
   overflow: hidden;
 }
 #vignette-bottom.gs {
-  background-image: url(images/page/vignette-bottom_gs.png);
+  background-image: url(../images/page/vignette-bottom_gs.png);
 }
 #vignette-left {
   margin: 0;
@@ -144,12 +144,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(images/page/vignette-left.png);
+  background-image: url(../images/page/vignette-left.png);
   background-repeat: repeat-y;
   overflow: hidden;
 }
 #vignette-left.gs {
-  background-image: url(images/page/vignette-left_gs.png);
+  background-image: url(../images/page/vignette-left_gs.png);
 }
 #vignette-right {
   margin: 0;
@@ -158,18 +158,18 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url(images/page/vignette-right.png);
+  background-image: url(../images/page/vignette-right.png);
   background-repeat: repeat-y;
   overflow: hidden;
 }
 #vignette-right.gs {
-  background-image: url(images/page/vignette-right_gs.png);
+  background-image: url(../images/page/vignette-right_gs.png);
 }
 #umbrella {
   position: absolute;
   left: -40px;
   top: 150px;
-  background-image: url(images/page/stamps.png);
+  background-image: url(../images/page/stamps.png);
   width: 126px;
   height: 246px;
 }
@@ -206,7 +206,7 @@ body {
   left: -100px;
   width: 218px;
   height: 159px;
-  background: url(images/page/loader-bubble.png);
+  background: url(../images/page/loader-bubble.png);
   text-align: center;
   padding-top: 70px;
   padding-left: 10px;
@@ -230,7 +230,7 @@ body {
   top: 0;
   width: 74px;
   height: 130px;
-  background: url(images/page/dev-bg.png);
+  background: url(../images/page/dev-bg.png);
   background-repeat: no-repeat;
   background-position: 23px 0;
 }
