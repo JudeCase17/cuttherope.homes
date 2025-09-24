@@ -21,12 +21,12 @@
 
     // Add all links
     nav.appendChild(createLink("https://ctrhome.github.io/", "", true, "https://ctrhome.github.io/img/logo_small.png"));
-    nav.appendChild(createLink("https://ctrhome.github.io/games", "Games"));
-    nav.appendChild(createLink("https://ctrhome.github.io/about", "About"));
-    nav.appendChild(createLink("https://ctrhome.github.io/fan-projects", "Fan Projects"));
-    nav.appendChild(createLink("https://ctrhome.github.io/play", "Play Online"));
-    // nav.appendChild(createLink("https://ctrhome.github.io/modding", "Modding"));
-    nav.appendChild(createLink("https://ctrhome.github.io/comics", "Comics"));
+    nav.appendChild(createLink("/games", "Games"));
+    nav.appendChild(createLink("/about", "About"));
+    nav.appendChild(createLink("/fan-projects", "Fan Projects"));
+    nav.appendChild(createLink("/play", "Play Online"));
+    // nav.appendChild(createLink("/modding", "Modding"));
+    nav.appendChild(createLink("/comics", "Comics"));
 
     // Add the hamburger icon
     const iconLink = document.createElement("a");
