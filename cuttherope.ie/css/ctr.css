@@ -108,19 +108,19 @@ body {
   background-image: url(../images/page/bg3.jpg);
 }
 .ctrCursor {
-  cursor: url(../cursors/cursor.cur),
-    url(../cursors/cursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/cursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/cursor.png),
     auto;
 }
 .ctrCursor a,
 .ctrPointer {
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto;
 }
 .ctrCursorActive {
-  cursor: url(../cursors/cursorActive.cur),
-    url(../cursors/cursorActive.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/cursorActive.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/cursorActive.png),
     auto;
 }
 #vignette-bottom {
@@ -391,8 +391,8 @@ th {
   bottom: 20px;
   border-color: transparent !important;
   border-width: 0 !important;
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto !important;
 }
 .ui-1024 .useSD {
@@ -515,8 +515,8 @@ th {
   background-image: url("../images/1024/ui/fBtn_bgd.png");
   text-align: center;
   margin-bottom: 10px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 .fBtn:hover {
@@ -528,11 +528,11 @@ th {
 .ui-1024 .mBtn {
   width: 235px;
   height: 70px;
-  background-image: url("../images/1024/ui/mBtn_bgd.png");
+  background-image: url("https://ctrhome.github.io/cuttherope.ie/images/1024/ui/mBtn_bgd.png");
   text-align: center;
   margin-bottom: 10px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 .mBtn img {
@@ -547,8 +547,8 @@ th {
   background-image: url("../images/1024/ui/lBtn_bgd.png");
   text-align: center;
   margin-bottom: 10px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 .lBtn img {
@@ -563,8 +563,8 @@ th {
   background-image: url("../images/1024/ui/sBtn_bgd.png");
   text-align: center;
   margin-bottom: 10px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 .sBtn img {
@@ -580,8 +580,8 @@ th {
   width: 79px;
   height: 75px;
   background-image: url("../images/1024/ui/bBtn_bgd.png");
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 .bBtn:hover {
@@ -661,8 +661,8 @@ th {
   position: absolute;
   top: 256px;
   left: 205px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-1024 #boxNavBack div,
@@ -672,8 +672,8 @@ th {
   background-image: url("../images/1024/ui/box_nav_menu.png");
 }
 .ui-1024 #boxNavBack .boxNavDisabled {
-  cursor: url("../cursors/cursor.cur"),
-    url("../cursors/cursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.png"),
     auto;
   background-position: left -71px;
   opacity: 0.5;
@@ -685,8 +685,8 @@ th {
   background-position: -59px top;
 }
 .ui-1024 #boxNavForward .boxNavDisabled {
-  cursor: url("../cursors/cursor.cur"),
-    url("../cursors/cursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.png"),
     auto;
   background-position: -59px -71px;
   opacity: 0.25;
@@ -1243,8 +1243,8 @@ th {
   background-repeat: no-repeat;
   background-position: -300px 0;
   opacity: 0.6;
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto;
 }
 .ui-1024 #optionHd.inActiveResolution:hover {
@@ -1261,8 +1261,8 @@ th {
   background-repeat: no-repeat;
   background-position: -200px 0;
   opacity: 0.6;
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto;
 }
 .ui-1024 #optionSd.inActiveResolution:hover {
@@ -1534,8 +1534,8 @@ th {
   background-image: url("../images/768/ui/fBtn_bgd.png");
   text-align: center;
   margin-bottom: 8px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 .fBtn:hover {
@@ -1550,8 +1550,8 @@ th {
   background-image: url("../images/768/ui/mBtn_bgd.png");
   text-align: center;
   margin-bottom: 8px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 .mBtn img {
@@ -1566,8 +1566,8 @@ th {
   background-image: url("../images/768/ui/lBtn_bgd.png");
   text-align: center;
   margin-bottom: 8px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 .lBtn img {
@@ -1582,8 +1582,8 @@ th {
   background-image: url("../images/768/ui/sBtn_bgd.png");
   text-align: center;
   margin-bottom: 8px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 .sBtn img {
@@ -1599,8 +1599,8 @@ th {
   width: 59px;
   height: 56px;
   background-image: url("../images/768/ui/bBtn_bgd.png");
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 .bBtn:hover {
@@ -1680,8 +1680,8 @@ th {
   position: absolute;
   top: 192px;
   left: 154px;
-  cursor: url("../cursors/handcursor.cur"),
-    url("../cursors/handcursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png"),
     auto;
 }
 .ui-768 #boxNavBack div,
@@ -1691,8 +1691,8 @@ th {
   background-image: url("../images/768/ui/box_nav_menu.png");
 }
 .ui-768 #boxNavBack .boxNavDisabled {
-  cursor: url("../cursors/cursor.cur"),
-    url("../cursors/cursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.png"),
     auto;
   background-position: left -53px;
   opacity: 0.5;
@@ -1704,8 +1704,8 @@ th {
   background-position: -44px top;
 }
 .ui-768 #boxNavForward .boxNavDisabled {
-  cursor: url("../cursors/cursor.cur"),
-    url("../cursors/cursor.png"),
+  cursor: url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.cur"),
+    url("https://ctrhome.github.io/cuttherope.ie/cursors/cursor.png"),
     auto;
   background-position: -44px -53px;
   opacity: 0.25;
@@ -2262,8 +2262,8 @@ th {
   background-repeat: no-repeat;
   background-position: -225px 0;
   opacity: 0.6;
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto;
 }
 .ui-768 #optionHd.inActiveResolution:hover {
@@ -2280,8 +2280,8 @@ th {
   background-repeat: no-repeat;
   background-position: -150px 0;
   opacity: 0.6;
-  cursor: url(../cursors/handcursor.cur),
-    url(../cursors/handcursor.png),
+  cursor: url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.cur),
+    url(https://ctrhome.github.io/cuttherope.ie/cursors/handcursor.png),
     auto;
 }
 .ui-768 #optionSd.inActiveResolution:hover {
